@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NRDPISI 2024</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <h1>NRDPISI 2024</h1>
+        <h2>The 1st International Workshop on Near Real-time Data Processing for Interconnected Scientific Instruments</h2>
+        <h3>Sept 17, 2024 - Osaka Senri, Japan</h3>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#topics">Topics</a></li>
+            <li><a href="#submission">Submission</a></li>
+            <li><a href="#committee">Committee</a></li>
+            <li><a href="#cfp">CFP</a></li>
+            <li><a href="#prior">Prior Workshops</a></li>
+        </ul>
+    </nav>
+
+    <section id="topics">
+        <h2>Workshop Topics</h2>
+        <p>Big data processing, real-time data analytics, scientific instruments integration, and more.</p>
+    </section>
+
+    <section id="submission">
+        <h2>Submission Guidelines</h2>
+        <p>Submit your papers via the conference submission system. Deadline: July 2024.</p>
+    </section>
+
+    <section id="committee">
+        <h2>Organizing Committee</h2>
+        <p>Details about the committee members coming soon.</p>
+    </section>
+
+    <section id="cfp">
+        <h2>Call for Papers</h2>
+        <p>We invite papers on big data processing for scientific instruments. Check the guidelines for more info.</p>
+    </section>
+
+    <section id="prior">
+        <h2>Previous Workshops</h2>
+        <p>Visit our <a href="https://sites.google.com/charlotte.edu/nrdpisi-1">Google Sites page</a> for details on previous events.</p>
+    </section>
+
+    <footer>
+        <p>NRDPISI 2024 | Contact us at info@nrdpisi.com</p>
+    </footer>
+</body>
+</html>
