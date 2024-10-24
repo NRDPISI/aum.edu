@@ -35,22 +35,20 @@
             top: 40%;
             left: 50%;
             transform: translate(-50%, -50%);
-            color: #ffffff;
-            font-size: 2.2em;
+            color: #ffffff; 
+            font-size: 2.2em; 
             font-weight: bold;
             text-align: center;
-            width: 80%;
-            line-height: 1.2em;
-            text-shadow: 2px 2px 4px #000000;
+            width: 80%; 
+            line-height: 1.2em; 
         }
 
-        
+       
         .banner img {
             width: 100%;
             height: auto;
         }
 
-        
         .date-location {
             position: absolute;
             bottom: 10px;
@@ -59,52 +57,15 @@
             color: #ffffff;
             text-shadow: 2px 2px 4px #000000;
         }
-
-        
-        .navigation {
-            position: absolute;
-            top: 0; 
-            width: 100%;
-            text-align: center;
-            background-color: rgba(255, 255, 255, 0.8); 
-            padding: 10px 0;
-        }
-
-        .navigation a {
-            font-size: 1.2em;
-            margin: 0 20px;
-            text-decoration: none;
-            color: #52739e;
-        }
-
-        .navigation a:hover {
-            color: #b2132e;
-        }
     </style>
 </head>
 
 <body>
-    
-    <div class="navigation">
-        <td class="navigation">
-            <a class="current" title="Workshop Topics" href="#topics">Topics</a>
-        </td>
-        <td class="navigation">
-			<a title="Submission Guidelines" href="#important-dates">Submission</a>
-		</td>
-        <td class="navigation">
-                <a title="Organizing Committee" href="#committee">Committee</a>
-        </td>
-        <td class="navigation">
-            <a title="Call for Papers" href="CFP/index.html">CFP</a>
-        </td>
-        <td class="navigation">
-            <a title="Prior Workshops" href="#prior">Prior</a>
-        </td>
-    </div>
 
     <div class="banner">
-        <img src="figure/singapore.jpg" alt="Conference Template Banner">      
+        
+        <img src="figure/singapore.jpg" alt="Conference Template Banner">
+        
         <div class="title-overlay">
            The 1st International Workshop on <br> Near Real-time Data Processing for Interconnected Scientific Instruments
         </div>
@@ -113,7 +74,7 @@
         </div>
     </div>
 
-    <!--<table class="navigation">
+    <table class="navigation">
     <tr>
         <td class="navigation">
             <a class="current" title="Workshop Topics" href="TOPICS/index.html">Topics</a>
@@ -131,7 +92,7 @@
             <a title="Prior Workshops" href="#prior">Prior</a>
         </td>
     </tr>
-</table> -->
+</table>
    
     <p>
 	The complexity of scientific research calls for dynamic integration of various interconnected scientific 
@@ -158,7 +119,7 @@
 	 and analytical workflows for their applications. The outcome of this workshop will foster the implementation of near real-time data processing
 	 workflows by accelerating all stages of the scientific research lifecycle, including large-scale data acquisition, data curation, analytics, and sharing.
 
-    <h2 id="topics">List of Topics</h2>
+    <h2>List of Topics</h2>
         <p>• Data reduction methods for scientific data</p>
 			<ul>
 				<li>• Methods for diverse data types</li>
@@ -254,12 +215,6 @@
             });
         });
 
-		document.querySelector('a[href="#topics"]').addEventListener('click', function(e) {
-            e.preventDefault();  
-            document.querySelector('#topics').scrollIntoView({
-                behavior: 'smooth'  
-            });
-        });
         
         document.querySelector('a[href="#committee"]').addEventListener('click', function(e) {
             e.preventDefault();  
