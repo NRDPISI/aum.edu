@@ -14,11 +14,11 @@
     </header>
     <nav>
         <ul>
-            <li><a href="#topics">Topics</a></li>
-            <li><a href="#submission">Submission</a></li>
-            <li><a href="#committee">Committee</a></li>
-            <li><a href="#cfp">CFP</a></li>
-            <li><a href="#prior">Prior Workshops</a></li>
+            <li><a href="TOPICS/index.html">Topics</a></li>
+            <li><a href="SUBMISSION/index.html">Submission</a></li>
+            <li><a href="COMMITTEE/index.html">Committee</a></li>
+            <li><a href="CFP/index.html">CFP</a></li>
+            <li><a href="PRIOR/index.html">Prior Workshops</a></li>
         </ul>
     </nav>
 
